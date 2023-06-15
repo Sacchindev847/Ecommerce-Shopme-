@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1,0">
+<link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css">
+<title>Home- Shopme Admin </title>
+</head>
+<body>
+	<div class="container-fluid">
+		<h1>Welcome to Shopme Admin Control Panel</h1>
+	</div>
+	
+</body>
+</html>

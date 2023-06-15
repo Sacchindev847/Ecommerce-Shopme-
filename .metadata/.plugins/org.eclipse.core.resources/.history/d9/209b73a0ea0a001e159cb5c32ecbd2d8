@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeLeaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}">
+<script type="text/javascript" src="@{/webjars/jquery/jquery.min.js}"></script>
+<script type="text/javascript" src="@{/webjars/bootsrap/js/bootstrap.min.js}"></script>
+<title>Home- Shopme Admin </title>
+</head>
+<body>
+	<div class="container-fluid">
+		
+		<div class="navbar navbar-expand bg-dark navbar-dark">
+			<a class="navbar-brand" th:href="@{/}">
+				<img th:src="@{/images/ShopmeAdminSmall.png}"/>
+			</a>
+			
+			<div class="collapse navbar-collapse ">
+                   <ul class="navbar nav">
+					   <li class="nav-item">
+						   <a class="nav-link" th:href="@{/users}">Users</a>
+					   </li>
+				   </ul>				
+			</div>
+			
+		</div>
+		
+		<div>
+			<h1>Welcome to Shopme Admin Control Panel</h1>
+		</div>
+		<div>Shopme control panel - Copryright &copy; Shopme</div>
+	</div>
+	
+</body>
+</html>

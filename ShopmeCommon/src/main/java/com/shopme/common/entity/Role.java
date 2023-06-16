@@ -13,7 +13,7 @@ public class Role {
     
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int id;
+	private Integer id;
 	private String name;
 	private String description;
 
@@ -51,5 +51,13 @@ public class Role {
 	public void setDescription(String description) {
 		this.description = description;
 	}
+
+
+	@Override
+	public String toString() {
+		return this.name;
+	}
+	
+	
 
 }

@@ -1,0 +1,12 @@
+package com.shopme.admin.user;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class userService {
+
+	@Autowired
+	private UserRepository repo;
+	
+}

@@ -1,0 +1,6 @@
+package com.shopme.admin.user;
+
+@Controller
+public class UserController {
+
+}

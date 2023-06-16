@@ -1,0 +1,15 @@
+package com.shopme.admin.user;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class userRepositoryTest {
+  
+	@Autowired
+	private userRepository repo;
+	
+	@Test
+	public void testCreateUser() {
+		
+	}
+	
+}
